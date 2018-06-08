@@ -6,7 +6,9 @@
 
 ### Install Node.js Server in Linux
 
+  ```
   sudo apt-get install curl python-software-properties
+  ```
   curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -(Replace 8.x to another version if want to change)
   sudo apt-get install nodejs
 
