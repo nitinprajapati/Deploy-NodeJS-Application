@@ -1,12 +1,12 @@
 #!/bin/sh
 
-APP_NAME="QuasarWorkFlowManager"
-USER="ubuntu"
+APP_NAME="YourApplicationName"
+USER="Server'sUserName"
 GROUP="$USER"
-NODE_ENV="production"
-PORT="3000"
-APP_DIR="/var/nodejscode/QuasarWorkFlowManager"
-NODE_APP="bin/www"
+NODE_ENV="Select your environment type"
+PORT="Port"
+APP_DIR="Application directory"
+NODE_APP="App starting point"
 KWARGS=""
 CONFIG_DIR="$APP_DIR"
 PID_DIR="$APP_DIR/pid"
