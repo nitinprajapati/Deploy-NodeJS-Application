@@ -18,7 +18,14 @@
   sudo chmod 777 /var/nodejscode/Package (Giving read write permission if application needed)
   
 ### Configure NodejsDeploymenScript.sh sheel script
-
+  YourApplicationName: Change it to you application name
+  Server'sUserName: Change it to your server user name
+  Select your environment type: Select your environment(Commanly used Production & Development)
+  Port: Server port on which you want to run your nodejs server
+  Application directory: Your application directory(/var/nodejscode/Package)
+  App starting point: You starting script name(Bin/www)
+  
+  
 ### Install Nodejs as a service
   sudo cp /var/nodejscode/Package/NodejsDeploymenScript.sh /etc/init.d/NodeService  (Assuming downloaded file reside in the mentioned location)
   sudo chmod a+x /etc/init.d/NodeService
